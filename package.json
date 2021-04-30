@@ -1,0 +1,16 @@
+{
+  "name": "pos-css-starter",
+  "version": "0.1.0",
+  "description": "Another post css starter kit",
+  "main": "index.js",
+  "scripts": {
+    "start": "postcss ./src/input.css --output ./public/pos-css-starter.css --watch",
+    "build": "postcss ./src/input.css --output ./dist/pos-css-starter.css --watch"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss": "^8.2.13",
+    "postcss-cli": "^8.3.1"
+  }
+}
