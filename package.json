@@ -4,8 +4,8 @@
   "description": "Another post css starter kit",
   "main": "index.js",
   "scripts": {
-    "start": "rm -rf ./public postcss ./src/input.css --use autoprefixer --output ./public/pos-css-starter.css --watch",
-    "build": "rm -rf ./dist && postcss ./src/input.css --use autoprefixer --output ./dist/pos-css-starter.css"
+    "start": "./public postcss ./src/input.css --use autoprefixer --output ./public/pos-css-starter.css --watch",
+    "build": "./dist && postcss ./src/input.css --use autoprefixer --output ./dist/pos-css-starter.css"
   },
   "author": "",
   "license": "ISC",
