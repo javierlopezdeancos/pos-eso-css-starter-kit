@@ -1,0 +1,10 @@
+@import "foo.css";
+
+.bar {
+  @extend .foo;
+  background-color: red;
+
+  &:hover {
+    background-color: yellow;
+  }
+}
