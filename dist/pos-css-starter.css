@@ -1,4 +1,5 @@
-.foo, .bar {
+.foo,
+.bar {
   color: red;
 }
 
@@ -9,5 +10,3 @@
     background-color: yellow;
   }
 }
-
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9mb28uY3NzIiwiLi4vc3JjL2Jhci5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFVO0FBQ1o7O0FDQUE7RUFFRSxxQkFBcUI7O0VBRXJCO0lBQ0Usd0JBQXdCO0VBQzFCO0FBQ0YiLCJmaWxlIjoicG9zLWNzcy1zdGFydGVyLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi5mb28ge1xuICBjb2xvcjogcmVkO1xufVxuIiwiQGltcG9ydCBcImZvby5jc3NcIjtcblxuLmJhciB7XG4gIEBleHRlbmQgLmZvbztcbiAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xuXG4gICY6aG92ZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHllbGxvdztcbiAgfVxufVxuIl19 */

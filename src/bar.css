@@ -2,6 +2,7 @@
 
 .bar {
   @extend .foo;
+
   background-color: red;
 
   &:hover {
