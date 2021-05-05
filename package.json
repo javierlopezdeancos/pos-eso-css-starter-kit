@@ -6,16 +6,17 @@
   "scripts": {
     "start": "postcss ./src/index.css --use postcss-preset-env postcss-import postcss-extend autoprefixer --output ./public/pos-css-starter.css --watch",
     "build:dist": "postcss ./src/index.css --use postcss-preset-env postcss-import postcss-extend autoprefixer --output ./dist/pos-css-starter.css",
-    "build": "npm run build:dist && npm run format:dist",
-    "format:src": "npx stylelint --fix 'src/**/*.css'",
-    "format:dist": "npx stylelint --fix 'dist/**/*.css'",
-    "lint": "npx stylelint 'src/**/*.css'"
+    "build": "npm run lint && npm run build:dist",
+    "format": "npx stylelint --fix 'src/**/*.css'",
+    "lint": "npx stylelint 'src/**/*.css'",
+    "prepare": "husky install"
   },
   "author": "https://github.com/javierlopezdeancos",
   "license": "gpl-2.0",
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "cssnano": "^5.0.2",
+    "husky": "^6.0.0",
     "postcss": "^8.2.13",
     "postcss-cli": "^8.3.1",
     "postcss-extend": "^1.0.5",
