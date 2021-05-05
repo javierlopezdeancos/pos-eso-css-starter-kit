@@ -1,12 +1,14 @@
-.foo,
-.bar {
+.foo, .bar {
   color: red;
 }
 
 .bar {
+
   background-color: red;
 
   &:hover {
     background-color: yellow;
   }
 }
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3NyYy9mb28uY3NzIiwiLi4vc3JjL2Jhci5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxVQUFVO0FBQ1o7O0FDQUE7O0VBR0UscUJBQXFCOztFQUVyQjtJQUNFLHdCQUF3QjtFQUMxQjtBQUNGIiwiZmlsZSI6InBvcy1jc3Mtc3RhcnRlci5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIuZm9vIHtcbiAgY29sb3I6IHJlZDtcbn1cbiIsIkBpbXBvcnQgXCJmb28uY3NzXCI7XG5cbi5iYXIge1xuICBAZXh0ZW5kIC5mb287XG5cbiAgYmFja2dyb3VuZC1jb2xvcjogcmVkO1xuXG4gICY6aG92ZXIge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHllbGxvdztcbiAgfVxufVxuIl19 */
