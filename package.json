@@ -4,8 +4,8 @@
   "description": "Another post css starter kit",
   "main": "index.js",
   "scripts": {
-    "start": "npm run lint && postcss ./src/index.css --use postcss-preset-env postcss-import postcss-extend autoprefixer --output ./public/pos-eso-css-starter-kit.css --watch",
-    "build:dist": "postcss ./src/index.css --use postcss-preset-env postcss-import postcss-extend autoprefixer --output ./dist/pos-eso-css-starter-kit.css",
+    "start": "npm run lint && postcss ./src/index.css --use postcss-preset-env postcss-import postcss-nested postcss-extend autoprefixer --output ./public/pos-eso-css-starter-kit.css --watch",
+    "build:dist": "postcss ./src/index.css --use postcss-preset-env postcss-import postcss-nested postcss-extend postcss-csso autoprefixer --output ./dist/pos-eso-css-starter-kit.css",
     "build": "npm run lint && npm run build:dist",
     "format": "npx stylelint --fix 'src/**/*.css'",
     "lint": "npx stylelint 'src/**/*.css'",
@@ -16,11 +16,14 @@
   "devDependencies": {
     "autoprefixer": "^9.8.6",
     "cssnano": "^5.0.2",
+    "cssnano-preset-advanced": "^5.0.1",
     "husky": "^6.0.0",
-    "postcss": "^8.2.13",
+    "postcss": "^8.2.14",
     "postcss-cli": "^8.3.1",
     "postcss-extend": "^1.0.5",
     "postcss-import": "^14.0.1",
+    "postcss-nested": "^5.0.5",
+    "postcss-csso": "^5.0.1",
     "postcss-preset-env": "^6.7.0",
     "stylelint": "^13.13.1",
     "stylelint-config-standard": "^22.0.0"

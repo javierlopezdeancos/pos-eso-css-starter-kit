@@ -4,6 +4,8 @@ const cssnano = require('cssnano')
 const atImport = require("postcss-import")
 const simpleExtend = require('postcss-extend');
 const stylelint = require('stylelint');
+const postCssNested = require('postcss-nested');
+const postCssCsso = require('postcss-csso');
 
 module.exports = (ctx) => ({
   map: ctx.options.map,
@@ -14,8 +16,10 @@ module.exports = (ctx) => ({
       from: "src/index.css",
     }),
     simpleExtend(),
+    postCssNested(),
     stylelint(),
     autoprefixer(),
-    cssnano({ preset: 'default' }),
+    cssnano({ preset: 'advanced' }),
+    postCssCsso({ restructure: false })
   ],
 })
